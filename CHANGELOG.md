@@ -1,3 +1,15 @@
+## 0.1.0
+
+**BREAKING CHANGES:**
+* Renamed spacing values to remove leading zeros for cleaner API:
+  - `space025` → `space25`
+  - `space050` → `space50`
+  - `space075` → `space75`
+* Updated corresponding KGap factory constructors:
+  - `KGap.space025()` → `KGap.space25()`
+  - `KGap.space050()` → `KGap.space50()`
+  - `KGap.space075()` → `KGap.space75()`
+
 ## 0.0.2
 
 * Add space125 (1.25x spacing unit) to fill gap between space100 and space150

@@ -98,7 +98,7 @@ class ExampleScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const Text('Item 1'),
-                  KGap.space050(), // 4px gap
+                  KGap.space50(), // 4px gap
                   const Text('Item 2'),
                   KGap.space100(), // 8px gap
                   const Text('Item 3'),
@@ -143,8 +143,8 @@ class ExampleScreen extends StatelessWidget {
 
   Widget _buildSpacingShowcase() {
     final spacingValues = [
-      ('space025', Space.space025),
-      ('space050', Space.space050),
+      ('space25', Space.space25),
+      ('space50', Space.space50),
       ('space100', Space.space100),
       ('space150', Space.space150),
       ('space200', Space.space200),
@@ -164,7 +164,7 @@ class ExampleScreen extends StatelessWidget {
         children: spacingValues
             .map(
               (item) => Padding(
-                padding: Space.space050.vertical,
+                padding: Space.space50.vertical,
                 child: Row(
                   children: [
                     SizedBox(

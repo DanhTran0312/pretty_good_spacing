@@ -17,7 +17,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  pretty_good_spacing: ^0.0.2
+  pretty_good_spacing: ^0.1.0
 ```
 
 Then run:
@@ -68,7 +68,7 @@ Container(
     children: [
       Text('Title'),
       Padding(
-        padding: Space.space050.vertical,
+        padding: Space.space50.vertical,
         child: Text('Subtitle'),
       ),
     ],
@@ -97,9 +97,9 @@ Column(
 The spacing system provides these values (multipliers of your base unit):
 
 - `space0`: 0 - Reset spacing
-- `space025`: 0.25x - Very small spacing
-- `space050`: 0.5x - Small spacing
-- `space075`: 0.75x - Small spacing
+- `space25`: 0.25x - Very small spacing
+- `space50`: 0.5x - Small spacing
+- `space75`: 0.75x - Small spacing
 - `space100`: 1x - Base spacing (default)
 - `space125`: 1.25x - Small-medium spacing
 - `space150`: 1.5x - Medium spacing

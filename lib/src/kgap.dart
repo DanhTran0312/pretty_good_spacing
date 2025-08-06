@@ -27,18 +27,18 @@ class KGap extends StatelessWidget {
 
   factory KGap.space0({double? crossAxisExtent, Color? color}) =>
       KGap(space: Space.space0, crossAxisExtent: crossAxisExtent, color: color);
-  factory KGap.space025({double? crossAxisExtent, Color? color}) => KGap(
-    space: Space.space025,
+  factory KGap.space25({double? crossAxisExtent, Color? color}) => KGap(
+    space: Space.space25,
     crossAxisExtent: crossAxisExtent,
     color: color,
   );
-  factory KGap.space050({double? crossAxisExtent, Color? color}) => KGap(
-    space: Space.space050,
+  factory KGap.space50({double? crossAxisExtent, Color? color}) => KGap(
+    space: Space.space50,
     crossAxisExtent: crossAxisExtent,
     color: color,
   );
-  factory KGap.space075({double? crossAxisExtent, Color? color}) => KGap(
-    space: Space.space075,
+  factory KGap.space75({double? crossAxisExtent, Color? color}) => KGap(
+    space: Space.space75,
     crossAxisExtent: crossAxisExtent,
     color: color,
   );

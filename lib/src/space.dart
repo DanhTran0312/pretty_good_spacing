@@ -20,9 +20,9 @@ import 'package:flutter/widgets.dart';
 ///
 /// Spacing scale (multipliers of the base unit):
 /// - space0: 0 - Use for resetting default spacing styles
-/// - space025: 0.25x - Use for small and compact pieces of UI
-/// - space050: 0.5x - Use for small and compact pieces of UI
-/// - space075: 0.75x - Use for small and compact pieces of UI
+/// - space25: 0.25x - Use for small and compact pieces of UI
+/// - space50: 0.5x - Use for small and compact pieces of UI
+/// - space75: 0.75x - Use for small and compact pieces of UI
 /// - space100: 1x - Use for small and compact pieces of UI
 /// - space150: 1.5x - Use for larger and less dense pieces of UI
 /// - space200: 2x - Use for larger and less dense pieces of UI
@@ -75,15 +75,15 @@ class Space {
 
   /// Use for small and compact pieces of UI.
   /// Value: 0.25 * spacingUnit
-  static double get space025 => _current._spacingUnit * 0.25;
+  static double get space25 => _current._spacingUnit * 0.25;
 
   /// Use for small and compact pieces of UI.
   /// Value: 0.5 * spacingUnit
-  static double get space050 => _current._spacingUnit * 0.5;
+  static double get space50 => _current._spacingUnit * 0.5;
 
   /// Use for small and compact pieces of UI.
   /// Value: 0.75 * spacingUnit
-  static double get space075 => _current._spacingUnit * 0.75;
+  static double get space75 => _current._spacingUnit * 0.75;
 
   /// Use for small and compact pieces of UI.
   /// Value: 1 * spacingUnit

@@ -13,7 +13,7 @@ void main() {
       expect(Space.spacingUnit, 8.0);
       expect(Space.space100, 8.0);
       expect(Space.space200, 16.0);
-      expect(Space.space050, 4.0);
+      expect(Space.space50, 4.0);
     });
 
     test('can be initialized with custom spacing unit', () {
@@ -22,16 +22,16 @@ void main() {
       expect(Space.spacingUnit, 4.0);
       expect(Space.space100, 4.0);
       expect(Space.space200, 8.0);
-      expect(Space.space050, 2.0);
+      expect(Space.space50, 2.0);
     });
 
     test('calculates all spacing values correctly with custom unit', () {
       Space.initialize(spacingUnit: 10.0);
 
       expect(Space.space0, 0);
-      expect(Space.space025, 2.5);
-      expect(Space.space050, 5.0);
-      expect(Space.space075, 7.5);
+      expect(Space.space25, 2.5);
+      expect(Space.space50, 5.0);
+      expect(Space.space75, 7.5);
       expect(Space.space100, 10.0);
       expect(Space.space150, 15.0);
       expect(Space.space200, 20.0);
@@ -155,9 +155,9 @@ void main() {
 
       const testCases = [
         (KGap.space0, 'space0'),
-        (KGap.space025, 'space025'),
-        (KGap.space050, 'space050'),
-        (KGap.space075, 'space075'),
+        (KGap.space25, 'space25'),
+        (KGap.space50, 'space50'),
+        (KGap.space75, 'space75'),
         (KGap.space100, 'space100'),
         (KGap.space150, 'space150'),
         (KGap.space200, 'space200'),
