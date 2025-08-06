@@ -17,7 +17,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  pretty_good_spacing: ^0.0.1
+  pretty_good_spacing: ^0.0.2
 ```
 
 Then run:
@@ -84,8 +84,10 @@ Column(
     Text('First item'),
     KGap.space100(), // 8px gap
     Text('Second item'),
-    KGap.space200(), // 16px gap
+    KGap.space125(), // 10px gap
     Text('Third item'),
+    KGap.space200(), // 16px gap
+    Text('Fourth item'),
   ],
 )
 ```
@@ -99,6 +101,7 @@ The spacing system provides these values (multipliers of your base unit):
 - `space050`: 0.5x - Small spacing
 - `space075`: 0.75x - Small spacing
 - `space100`: 1x - Base spacing (default)
+- `space125`: 1.25x - Small-medium spacing
 - `space150`: 1.5x - Medium spacing
 - `space200`: 2x - Medium spacing
 - `space250`: 2.5x - Medium spacing
