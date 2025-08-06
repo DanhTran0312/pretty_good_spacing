@@ -89,6 +89,10 @@ class Space {
   /// Value: 1 * spacingUnit
   static double get space100 => _current._spacingUnit;
 
+  /// Use for small and compact pieces of UI.
+  /// Value: 1.25 * spacingUnit
+  static double get space125 => _current._spacingUnit * 1.25;
+
   /// Use for larger and less dense pieces of UI.
   /// Value: 1.5 * spacingUnit
   static double get space150 => _current._spacingUnit * 1.5;
